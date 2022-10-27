@@ -1,0 +1,2 @@
+# neoSYCL_RS_examples
+neoSYCLの依存関係を解決する部分の挙動を確認するためのtestたちです
