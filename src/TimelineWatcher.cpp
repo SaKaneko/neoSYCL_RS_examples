@@ -30,7 +30,6 @@ int main() {
           for (size_t j = 0; j != N; j++)
             kb[j] = ka[j];
         }
-        // std::this_thread::sleep_for(std::chrono::seconds(3));
         auto tend = std::chrono::system_clock::now();
         kb[0] = std::chrono::duration_cast<std::chrono::milliseconds>(tstart -
                                                                       start)
